@@ -1,4 +1,6 @@
 @import url("./user.css");
+@import url("./social.css");
+@import url("./about.css");
 
 
 
@@ -10,7 +12,7 @@
 
     --background-card: #FFF;
     --background-badge: #E6EEF5;
-    --background-body: #e5e7e9;
+    --background-body: #dadcdd;
 
     --shadow-image: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     --shadow-card: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
@@ -46,7 +48,7 @@ body{
 
 section {
     
-    height: 460px;
+    
 }
 
 .projetos {
@@ -57,4 +59,9 @@ section {
     border-radius: 12px;
     background: var(--background-card);
     box-shadow: var(--shadow-card);
+}
+
+.subtitle {
+    font-size: 28px;
+    font-weight: 600;
 }
