@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Loja de Carros",
+        "image": "./assets/loja-de-carros.png",
+        "tags": [
+            "Html",
+            "Css",
+            "Javascript"
+        ],
+        "link": "https://github.com/dioberg/projetos-portfolio/tree/main/site-loja"
+    },
+    {
+        "name": "Pokedex",
+        "image": "./assets/pokedex.png",
+        "tags": [
+            "Html",
+            "Css",
+            "Javascript"
+        ],
+        "link": "https://github.com/dioberg/projetos-portfolio/tree/main/Pokedex"
+    },
+    {
+        "name": "Series flix",
+        "image": "./assets/serie.png",
+        "tags": [
+            "Html",
+            "Css",
+            "Javascript"
+        ],
+        "link": "https://github.com/dioberg/projetos-portfolio/tree/main/serie-flix"
+    },
+    {
+        "name": "Carrosel",
+        "image": "./assets/site-carrusel.png",
+        "tags": [
+            "Html",
+            "Css"
+        ],
+        "link": "https://github.com/dioberg/projetos-portfolio/tree/main/carrosel"
+    }
+]
