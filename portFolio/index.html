@@ -14,12 +14,15 @@
 
     <!-- css -->
     <link rel="stylesheet" href="./styles/global.css">
+
+    <!-- script aos - animações -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Diobergue Viana</title>
 </head>
 <body>
     <div class="app">
 
-        <section class="card user">
+        <section class="card user" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out">
             <picture>
                 <img src="./assets/diobergue.jpg" alt="">
             </picture>
@@ -53,7 +56,7 @@
             </div>
         </section>
 
-        <section class="card about">
+        <section class="card about" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
             <h2 class="subtitle">Sobre</h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorem debitis repellendus delectus! Aliquam, excepturi doloremque a sit veniam doloribus consequuntur eveniet assumenda fugit dignissimos, culpa hic consequatur, numquam et.</p>
@@ -65,7 +68,7 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing </p>
         </section>
 
-        <section class="card projects">
+        <section class="card projects" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out">
             <h2 class="subtitle">Projetos</h2>
 
             <div id="project__content">
@@ -78,5 +81,9 @@
 
 
     <script src="./scripts/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({once:true});
+    </script>
 </body>
 </html>
