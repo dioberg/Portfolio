@@ -1,11 +1,12 @@
 
 const elemProjects = document.getElementById('project__content')
 
-const createImage = (image) => {
+const createImage = (image, projectName) => {
         const elemPicture = document.createElement('picture')
         const elemImg = document.createElement('img')
 
         elemImg.setAttribute('src', image)
+        elemImg.setAttribute('alt', 'imagem de capa do projeto ' + projectName)
 
         elemPicture.appendChild(elemImg)
 
@@ -50,7 +51,7 @@ const createProject = (project, index) => {
     
 
     //add imagem de capa
-    elemProject.appendChild(createImage(project.image))
+    elemProject.appendChild(createImage(project.image, project.name))
 
     
 
